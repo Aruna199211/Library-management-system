@@ -18,7 +18,7 @@ This project demonstrates the implementation of a Library Management System usin
 ## Project Structure
 
 ### 1. Database Setup
-https://github.com/Aruna199211/Library-management-system/blob/5b3f98eaf9abfec43b0f992b35242ec012060b13/library%20ERD.png
+![ERD](https://github.com/Aruna199211/Library-management-system/blob/5b3f98eaf9abfec43b0f992b35242ec012060b13/library%20ERD.png)
 
 - **Database Creation**: Created a database named `library_project`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
