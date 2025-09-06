@@ -255,12 +255,7 @@ where r.issued_id is null;
 
 -- to perform advance Analysis I added some data
 
--- INSERT INTO book_issued in last 30 days
--- SELECT * from employees;
--- SELECT * from books;
--- SELECT * from members;
--- SELECT * from issued_status;
-
+```sql
 
 INSERT INTO issued_status(issued_id, issued_member_id, issued_book_name, issued_date, issued_book_isbn, issued_emp_id)
 VALUES
@@ -279,6 +274,8 @@ SET book_quality = 'Damaged'
 WHERE issued_id 
     IN ('IS112', 'IS117', 'IS118');
 SELECT * FROM return_status;
+
+```
 
 **Task 13: Identify Members with Overdue Books**  
 Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's_id, member's name, book title, issue date, and days overdue.
@@ -529,6 +526,8 @@ on i.issued_id=r.issued_id
 group by m.member_id;
 
 select * from overdue_books_and_cal_fines;
+
+```
 
 ## Reports
 
